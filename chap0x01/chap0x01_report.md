@@ -73,5 +73,5 @@ gitclone时始终出错，重新创立公私钥后才得以成功克隆仓库
 
 ### 参考资料
 
-[GitHub如何配置SSH Key]（https://blog.csdn.net/u013778905/article/details/83501204）
+[GitHub如何配置SSH Key](https://blog.csdn.net/u013778905/article/details/83501204)
 
