@@ -6,14 +6,14 @@
 lsb_release -a
 ```
 
-![lsb_local](img\lsb_local.png)
+![](img/lsb_local.png)
 
 ### 当前linux内核版本信息
 
 ```
 uname -a
 ```
-![uname_local](imh\uname_local.png)Virtualbox 
+![](img/uname_local.png)Virtualbox 
 
 ### 安装完 Ubuntu 之后新添加的网卡实现系统开机自动启用和自动获取 IP
 
@@ -21,7 +21,7 @@ uname -a
 ip a
 ```
 
-![ip a](img\ip a.png)
+![](img/ip a.png)
 查看了解到两张网卡均在工作中
 
 ### 使用scp在「虚拟机和宿主机之间」、「本机和远程 Linux 系统之间」传输文件
@@ -33,14 +33,14 @@ ip a
 ```
 scp ./scp.txt cuc@192.168.56.101:/home/cuc/Desktop
 ```
-![scp_vm](img\scp_vm.png)
+![](img/scp_vm.png)
 #### 本机和远程linux系统之间
 
 ```
 scp ./scp.txt root@101.133.143.197:/root
 ```
 
- ![scp_aliyun](img\scp_aliyun.png)
+ ![](img/scp_aliyun.png)
 ### 配置 SSH 免密登录
 
 ```
@@ -49,7 +49,7 @@ ssh-keygen -t rsa
 
 在宿主机上生成公私钥
 
-![rsa](img\rsa.png)
+![](img/rsa.png)
 
 ```
 $ ssh-copy-id -i Desktop.pub cuc@192.168.56.101
@@ -57,7 +57,7 @@ $ ssh-copy-id -i Desktop.pub cuc@192.168.56.101
 
 将公钥上传到虚拟机中
 
-![ssh_to_vm](img\ssh_to_vm.png)
+![](img/ssh_to_vm.png)
 
 ```
 vim ./.ssh/authorized_keys
@@ -65,7 +65,7 @@ vim ./.ssh/authorized_keys
 
 检查是否成功
 
-![ssh_to_vm_check](img\ssh_to_vm_check.png)
+![](img/ssh_to_vm_check.png)
 
 ### 遇到的问题
 
