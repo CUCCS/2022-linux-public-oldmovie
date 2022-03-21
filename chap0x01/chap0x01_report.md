@@ -13,9 +13,9 @@ lsb_release -a
 ```
 uname -a
 ```
-![](img/uname_local.png)Virtualbox 
+![](img/uname_local.png) 
 
-### 安装完 Ubuntu 之后新添加的网卡实现系统开机自动启用和自动获取 IP
+### Virtualbox安装完 Ubuntu 之后新添加的网卡实现系统开机自动启用和自动获取 IP
 
 ```
 ip a
