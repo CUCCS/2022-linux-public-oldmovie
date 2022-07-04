@@ -296,7 +296,7 @@ sudo usermod -G sudo user
 getent group sudo
 ```
 
-![Create_a_user](img\Create_a_user.png)
+![Create_a_user](img/Create_a_user.png)
 
 #### 将用户添加到用户组
 
@@ -308,7 +308,7 @@ sudo usermod -a -G group_1 user
 groups user
 ```
 
-![group](img\group.png)
+![group](img/group.png)
 
 ￥查看当前系统分区表和文件系统信息
 
@@ -318,9 +318,9 @@ sudo fdisk -l
 df -h
 ```
 
-![Partition_table](img\Partition_table.png)
+![Partition_table](img/Partition_table.png)
 
-![File_system](img\File_system.png)
+![File_system](img/File_system.png)
 
 #### 开机时自动挂载Virtualbox共享目录分区
 
@@ -332,15 +332,15 @@ sudo vim /etc/fstab
 
 创立文件并在虚拟机中设置
 
-![share_hi](C:\Users\97439\2022-linux-public-oldmovie\chap0x03\img\share_hi.png)
+![share_hi](img/share_hi.png)
 
 在虚拟机中挂载
 
-![mount](C:\Users\97439\2022-linux-public-oldmovie\chap0x03\img\mount.png)
+![mount](img/mount.png)
 
 成功实现开机自动挂载
 
-![successfully_set](C:\Users\97439\2022-linux-public-oldmovie\chap0x03\img\successfully_set.png)
+![successfully_set](img/successfully_set.png)
 
 #### 基于LVM的分区实现动态扩容和缩减容量
 
@@ -367,15 +367,15 @@ umount /dev/ubuntu-vg/lv_test
 
 创建PV物理卷
 
-![Physical_volume](C:\Users\97439\2022-linux-public-oldmovie\chap0x03\img\Physical_volume.png)
+![Physical_volume](img/Physical_volume.png)
 
 创建逻辑卷
 
-![The_logical_volume](C:\Users\97439\2022-linux-public-oldmovie\chap0x03\img\The_logical_volume.png)
+![The_logical_volume](img/The_logical_volume.png)
 
 扩容
 
-![capacity](C:\Users\97439\2022-linux-public-oldmovie\chap0x03\img\capacity.png)
+![capacity](img/capacity.png)
 
 
 
