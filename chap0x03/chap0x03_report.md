@@ -122,7 +122,7 @@ $ systemctl list-dependencies --all nginx.service
 
 ```
 
-[asciinema录屏](![img](file:///C:\Users\97439\AppData\Roaming\Tencent\QQ\Temp\%W@GJ$ACOF(TYDYECOKVDYB.png)https://asciinema.org/a/y5GLF1CmLBsUqNCOIvIdm6l2o)
+[asciinema录屏](https://asciinema.org/a/y5GLF1CmLBsUqNCOIvIdm6l2o)
 
 #### unit配置文件
 
@@ -145,7 +145,7 @@ $ sudo systemctl restart atd.service
 $ systemctl cat atd.service
 ```
 
-[asciinema录屏](![img](file:///C:\Users\97439\AppData\Roaming\Tencent\QQ\Temp\%W@GJ$ACOF(TYDYECOKVDYB.png)https://asciinema.org/a/9J6LvoctlP6gjFtJo5XFls3OV)
+[asciinema录屏](https://asciinema.org/a/9J6LvoctlP6gjFtJo5XFls3OV)
 
 Target
 
@@ -169,7 +169,7 @@ $ sudo systemctl isolate multi-user.target
 $ systemctl list-unit-files --type=targetcl
 ```
 
-[asciinema录屏](![img](file:///C:\Users\97439\AppData\Roaming\Tencent\QQ\Temp\%W@GJ$ACOF(TYDYECOKVDYB.png)https://asciinema.org/a/IxOFUYZYvqVTLKivqDalea0yQ)
+[asciinema录屏](https://asciinema.org/a/IxOFUYZYvqVTLKivqDalea0yQ)
 
 #### 日志管理
 
@@ -254,7 +254,7 @@ $ sudo journalctl --vacuum-time=1years
 
 ```
 
-[asciinema录屏](![img](file:///C:\Users\97439\AppData\Roaming\Tencent\QQ\Temp\%W@GJ$ACOF(TYDYECOKVDYB.png)https://asciinema.org/a/Giysp4HE7wmiG0UVg583dgo1q)
+[asciinema录屏](https://asciinema.org/a/Giysp4HE7wmiG0UVg583dgo1q)
 
 #### 实战
 
@@ -284,7 +284,7 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl restart ssh
 ```
 
-[asciinema录屏](![img](file:///C:\Users\97439\AppData\Roaming\Tencent\QQ\Temp\%W@GJ$ACOF(TYDYECOKVDYB.png)https://asciinema.org/a/dgSX6Wbje5RMDFKwKEpvil1Z9)
+[asciinema录屏](https://asciinema.org/a/dgSX6Wbje5RMDFKwKEpvil1Z9)
 
 #### 添加用户并使其具备sudo执行程序权限
 
