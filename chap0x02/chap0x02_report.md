@@ -4,7 +4,7 @@
 
 注册asciinema账号
 
-![registered](img\registered.png)
+![registered](img/registered.png)
 
 根据asciinema网站教学本地机安装asciinema
 
