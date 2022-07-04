@@ -14,9 +14,9 @@ sudo apt-get update
 sudo apt-get install asciinema
 ```
 
-![teach](img\teach.png)
+![teach](img/teach.png)
 
-![apt_install](img\apt_install.png)
+![apt_install](img/apt_install.png)
 
 CentOS版安装asciinema
 
@@ -24,7 +24,7 @@ CentOS版安装asciinema
 yum install asciinema
 ```
 
-![install_centOS](img\install_centOS.png)
+![install_centOS](img/install_centOS.png)
 
 获取链接
 
